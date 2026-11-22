@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "movieId": 1193,
+      "title": "One Flew Over the Cuckoo's Nest",
+      "ratingUser1": 5,
+      "ratingUser2": 5
+    },
+    {
+      "movieId": 1207,
+      "title": "To Kill a Mockingbird",
+      "ratingUser1": 4,
+      "ratingUser2": 4
+    },
+    {
+      "movieId": 1246,
+      "title": "Dead Poets Society",
+      "ratingUser1": 4,
+      "ratingUser2": 5
+    },
+    {
+      "movieId": 1962,
+      "title": "Driving Miss Daisy",
+      "ratingUser1": 4,
+      "ratingUser2": 5
+    },
+    {
+      "movieId": 2028,
+      "title": "Saving Private Ryan",
+      "ratingUser1": 5,
+      "ratingUser2": 4
+    },
+    {
+      "movieId": 3105,
+      "title": "Awakenings",
+      "ratingUser1": 5,
+      "ratingUser2": 4
+    }
+  ],
+  "database": "Neo4j/5.26.33",
+  "queryFile": "part3.cypher",
+  "queryFileSha256": "2536f8fcb0cd993fffc78d1440b69b1d2036b12d1d93e371587688f5c1fd4ce3",
+  "availableAfterMs": 90,
+  "consumedAfterMs": 3,
+  "verifiedAgainst": "MovieLens 1M raw files"
+}

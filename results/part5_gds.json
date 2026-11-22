@@ -1,0 +1,2001 @@
+{
+  "versions": [
+    {
+      "neo4jVersion": "5.26.33",
+      "gdsVersion": "2.13.4"
+    }
+  ],
+  "film_projection": [
+    {
+      "graphName": "ml1m_hw3_co_liked_films_v1",
+      "nodeCount": 300,
+      "arcCount": 30000
+    }
+  ],
+  "pagerank": [
+    {
+      "movieId": 260,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "year": 1977,
+      "score": 4.096832700324497,
+      "ratings": 2991,
+      "highRatings": 2622
+    },
+    {
+      "movieId": 1196,
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "year": 1980,
+      "score": 4.088457678494085,
+      "ratings": 2990,
+      "highRatings": 2510
+    },
+    {
+      "movieId": 2858,
+      "title": "American Beauty",
+      "year": 1999,
+      "score": 3.750732005005365,
+      "ratings": 3428,
+      "highRatings": 2853
+    },
+    {
+      "movieId": 2571,
+      "title": "Matrix, The",
+      "year": 1999,
+      "score": 3.6849910464205164,
+      "ratings": 2590,
+      "highRatings": 2171
+    },
+    {
+      "movieId": 1198,
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "score": 3.6533053164867937,
+      "ratings": 2514,
+      "highRatings": 2260
+    },
+    {
+      "movieId": 593,
+      "title": "Silence of the Lambs, The",
+      "year": 1991,
+      "score": 3.3193632368478365,
+      "ratings": 2578,
+      "highRatings": 2252
+    },
+    {
+      "movieId": 2028,
+      "title": "Saving Private Ryan",
+      "year": 1998,
+      "score": 3.3181019016360667,
+      "ratings": 2653,
+      "highRatings": 2260
+    },
+    {
+      "movieId": 589,
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "score": 3.2528758956376276,
+      "ratings": 2649,
+      "highRatings": 2044
+    },
+    {
+      "movieId": 1210,
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "year": 1983,
+      "score": 3.136467324863076,
+      "ratings": 2883,
+      "highRatings": 2127
+    },
+    {
+      "movieId": 2762,
+      "title": "Sixth Sense, The",
+      "year": 1999,
+      "score": 3.1328489784421634,
+      "ratings": 2459,
+      "highRatings": 2163
+    }
+  ],
+  "user_projection": [
+    {
+      "graphName": "ml1m_hw3_co_liked_users_v1",
+      "nodeCount": 402,
+      "arcCount": 30000
+    }
+  ],
+  "louvain": [
+    {
+      "communityCount": 83,
+      "modularity": 0.07664434525334045,
+      "modularities": [
+        0.07664434525334045
+      ],
+      "nodePropertiesWritten": 402
+    }
+  ],
+  "communities": [
+    {
+      "community": 131,
+      "users": 137,
+      "topGenres": [
+        {
+          "highRatings": 6782,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5771,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 2539,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 162,
+      "users": 110,
+      "topGenres": [
+        {
+          "highRatings": 4898,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 3979,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 3779,
+          "genre": "Drama"
+        }
+      ]
+    },
+    {
+      "community": 339,
+      "users": 75,
+      "topGenres": [
+        {
+          "highRatings": 4838,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3284,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 1742,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 20,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Mystery"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Drama"
+        }
+      ]
+    },
+    {
+      "community": 22,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 20,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Romance"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Crime"
+        }
+      ]
+    },
+    {
+      "community": 30,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 35,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 36,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 13,
+          "genre": "Animation"
+        },
+        {
+          "highRatings": 12,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 10,
+          "genre": "Children's"
+        }
+      ]
+    },
+    {
+      "community": 39,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 44,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 54,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 57,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 15,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Fantasy"
+        }
+      ]
+    },
+    {
+      "community": 59,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 60,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 7,
+          "genre": "War"
+        }
+      ]
+    },
+    {
+      "community": 79,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 7,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Sci-Fi"
+        }
+      ]
+    },
+    {
+      "community": 86,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 16,
+          "genre": "Documentary"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 98,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 10,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 100,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 10,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 118,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 11,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 10,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 128,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 16,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 135,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 11,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 141,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 16,
+          "genre": "Horror"
+        },
+        {
+          "highRatings": 11,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Sci-Fi"
+        }
+      ]
+    },
+    {
+      "community": 143,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Children's"
+        }
+      ]
+    },
+    {
+      "community": 147,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 10,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 152,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 10,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Sci-Fi"
+        }
+      ]
+    },
+    {
+      "community": 154,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 158,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 11,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 2,
+          "genre": "War"
+        }
+      ]
+    },
+    {
+      "community": 160,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 161,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 13,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 10,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 165,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Crime"
+        }
+      ]
+    },
+    {
+      "community": 166,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        }
+      ]
+    },
+    {
+      "community": 173,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Adventure"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 175,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 176,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 14,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 184,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 10,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 188,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 16,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Sci-Fi"
+        }
+      ]
+    },
+    {
+      "community": 189,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 11,
+          "genre": "Adventure"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Drama"
+        }
+      ]
+    },
+    {
+      "community": 194,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 195,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Sci-Fi"
+        }
+      ]
+    },
+    {
+      "community": 200,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 15,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Romance"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 201,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 14,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 203,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 20,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Crime"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Drama"
+        }
+      ]
+    },
+    {
+      "community": 207,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 210,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 10,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 214,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Documentary"
+        }
+      ]
+    },
+    {
+      "community": 216,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 18,
+          "genre": "Romance"
+        },
+        {
+          "highRatings": 13,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        }
+      ]
+    },
+    {
+      "community": 221,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 10,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 224,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 10,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 232,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 6,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 237,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 4,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 1,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 249,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 11,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Fantasy"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 250,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 252,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 17,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 257,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 260,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 7,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 270,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 16,
+          "genre": "Sci-Fi"
+        },
+        {
+          "highRatings": 11,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 273,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Adventure"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 274,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 281,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 5,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Children's"
+        }
+      ]
+    },
+    {
+      "community": 284,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 290,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 4,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 2,
+          "genre": "War"
+        }
+      ]
+    },
+    {
+      "community": 292,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 10,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 299,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 5,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 300,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 302,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 11,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Sci-Fi"
+        }
+      ]
+    },
+    {
+      "community": 304,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 26,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 310,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 13,
+          "genre": "Adventure"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Sci-Fi"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 312,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 6,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 313,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 6,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 328,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "War"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 336,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 13,
+          "genre": "Romance"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 7,
+          "genre": "Film-Noir"
+        }
+      ]
+    },
+    {
+      "community": 342,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 5,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 343,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 11,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 10,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 344,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 11,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 8,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 351,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 8,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Comedy"
+        }
+      ]
+    },
+    {
+      "community": 352,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 6,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Adventure"
+        }
+      ]
+    },
+    {
+      "community": 357,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 3,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Adventure"
+        },
+        {
+          "highRatings": 1,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 359,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 5,
+          "genre": "Action"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Thriller"
+        }
+      ]
+    },
+    {
+      "community": 375,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 5,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Action"
+        }
+      ]
+    },
+    {
+      "community": 378,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 14,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 9,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 2,
+          "genre": "Children's"
+        }
+      ]
+    },
+    {
+      "community": 383,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 15,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 3,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 389,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 1,
+          "genre": "Comedy"
+        },
+        {
+          "highRatings": 1,
+          "genre": "Romance"
+        }
+      ]
+    },
+    {
+      "community": 395,
+      "users": 1,
+      "topGenres": [
+        {
+          "highRatings": 12,
+          "genre": "Thriller"
+        },
+        {
+          "highRatings": 5,
+          "genre": "Drama"
+        },
+        {
+          "highRatings": 4,
+          "genre": "Comedy"
+        }
+      ]
+    }
+  ],
+  "dijkstra": [
+    {
+      "pairCount": 24,
+      "reachablePairs": 14,
+      "unreachablePairs": 10,
+      "meanHops": 1.5714285714285716,
+      "maxHops": 2,
+      "meanWeightedHops": 2.2142857142857144,
+      "paths": [
+        {
+          "weightedHops": 3,
+          "hopRoute": [
+            120,
+            5880,
+            1710
+          ],
+          "weightedCost": 0.07124111536358665,
+          "targetUserId": 1710,
+          "hops": 2,
+          "sourceUserId": 120,
+          "weightedRoute": [
+            120,
+            1980,
+            3285,
+            1710
+          ],
+          "pair": 1,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 2265,
+          "hops": null,
+          "sourceUserId": 315,
+          "weightedRoute": null,
+          "pair": 2,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": 3,
+          "hopRoute": [
+            510,
+            6000,
+            2820
+          ],
+          "weightedCost": 0.03613901516721707,
+          "targetUserId": 2820,
+          "hops": 2,
+          "sourceUserId": 510,
+          "weightedRoute": [
+            510,
+            1635,
+            1680,
+            2820
+          ],
+          "pair": 3,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 3375,
+          "hops": null,
+          "sourceUserId": 705,
+          "weightedRoute": null,
+          "pair": 4,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 3930,
+          "hops": null,
+          "sourceUserId": 900,
+          "weightedRoute": null,
+          "pair": 5,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": 3,
+          "hopRoute": [
+            1095,
+            1980,
+            4485
+          ],
+          "weightedCost": 0.06548507462686567,
+          "targetUserId": 4485,
+          "hops": 2,
+          "sourceUserId": 1095,
+          "weightedRoute": [
+            1095,
+            5100,
+            1680,
+            4485
+          ],
+          "pair": 6,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            1290,
+            1260,
+            5040
+          ],
+          "weightedCost": 0.05416666666666667,
+          "targetUserId": 5040,
+          "hops": 2,
+          "sourceUserId": 1290,
+          "weightedRoute": [
+            1290,
+            1680,
+            5040
+          ],
+          "pair": 7,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 5595,
+          "hops": null,
+          "sourceUserId": 1485,
+          "weightedRoute": null,
+          "pair": 8,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            1680,
+            120
+          ],
+          "weightedCost": 0.03519061583577712,
+          "targetUserId": 120,
+          "hops": 1,
+          "sourceUserId": 1680,
+          "weightedRoute": [
+            1680,
+            1980,
+            120
+          ],
+          "pair": 9,
+          "intermediateUsers": 0
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 675,
+          "hops": null,
+          "sourceUserId": 1875,
+          "weightedRoute": null,
+          "pair": 10,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            2070,
+            1230
+          ],
+          "weightedCost": 0.025794938351719664,
+          "targetUserId": 1230,
+          "hops": 1,
+          "sourceUserId": 2070,
+          "weightedRoute": [
+            2070,
+            1980,
+            1230
+          ],
+          "pair": 11,
+          "intermediateUsers": 0
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 1785,
+          "hops": null,
+          "sourceUserId": 2265,
+          "weightedRoute": null,
+          "pair": 12,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            2460,
+            2340
+          ],
+          "weightedCost": 0.04356357927786499,
+          "targetUserId": 2340,
+          "hops": 1,
+          "sourceUserId": 2460,
+          "weightedRoute": [
+            2460,
+            5100,
+            2340
+          ],
+          "pair": 13,
+          "intermediateUsers": 0
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 2895,
+          "hops": null,
+          "sourceUserId": 2655,
+          "weightedRoute": null,
+          "pair": 14,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 3450,
+          "hops": null,
+          "sourceUserId": 2850,
+          "weightedRoute": null,
+          "pair": 15,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            3045,
+            4005
+          ],
+          "weightedCost": 0.025158227848101268,
+          "targetUserId": 4005,
+          "hops": 1,
+          "sourceUserId": 3045,
+          "weightedRoute": [
+            3045,
+            1680,
+            4005
+          ],
+          "pair": 16,
+          "intermediateUsers": 0
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            3240,
+            4560
+          ],
+          "weightedCost": 0.029607843137254904,
+          "targetUserId": 4560,
+          "hops": 1,
+          "sourceUserId": 3240,
+          "weightedRoute": [
+            3240,
+            3705,
+            4560
+          ],
+          "pair": 17,
+          "intermediateUsers": 0
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            3435,
+            195,
+            5115
+          ],
+          "weightedCost": 0.05570291777188329,
+          "targetUserId": 5115,
+          "hops": 2,
+          "sourceUserId": 3435,
+          "weightedRoute": [
+            3435,
+            1980,
+            5115
+          ],
+          "pair": 18,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            3630,
+            195,
+            5670
+          ],
+          "weightedCost": 0.049019607843137254,
+          "targetUserId": 5670,
+          "hops": 2,
+          "sourceUserId": 3630,
+          "weightedRoute": [
+            3630,
+            1680,
+            5670
+          ],
+          "pair": 19,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": 1,
+          "hopRoute": [
+            3825,
+            195
+          ],
+          "weightedCost": 0.0125,
+          "targetUserId": 195,
+          "hops": 1,
+          "sourceUserId": 3825,
+          "weightedRoute": [
+            3825,
+            195
+          ],
+          "pair": 20,
+          "intermediateUsers": 0
+        },
+        {
+          "weightedHops": 3,
+          "hopRoute": [
+            4020,
+            195,
+            750
+          ],
+          "weightedCost": 0.0572720173014538,
+          "targetUserId": 750,
+          "hops": 2,
+          "sourceUserId": 4020,
+          "weightedRoute": [
+            4020,
+            1635,
+            5100,
+            750
+          ],
+          "pair": 21,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 1305,
+          "hops": null,
+          "sourceUserId": 4215,
+          "weightedRoute": null,
+          "pair": 22,
+          "intermediateUsers": null
+        },
+        {
+          "weightedHops": 2,
+          "hopRoute": [
+            4410,
+            1980,
+            1860
+          ],
+          "weightedCost": 0.06746031746031746,
+          "targetUserId": 1860,
+          "hops": 2,
+          "sourceUserId": 4410,
+          "weightedRoute": [
+            4410,
+            1980,
+            1860
+          ],
+          "pair": 23,
+          "intermediateUsers": 1
+        },
+        {
+          "weightedHops": null,
+          "hopRoute": null,
+          "weightedCost": null,
+          "targetUserId": 2415,
+          "hops": null,
+          "sourceUserId": 4605,
+          "weightedRoute": null,
+          "pair": 24,
+          "intermediateUsers": null
+        }
+      ]
+    }
+  ],
+  "drop_users": [
+    {
+      "graphName": "ml1m_hw3_co_liked_users_v1"
+    }
+  ],
+  "drop_films": [
+    {
+      "graphName": "ml1m_hw3_co_liked_films_v1"
+    }
+  ]
+}

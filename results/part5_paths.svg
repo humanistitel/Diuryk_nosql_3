@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 295" role="img" aria-labelledby="title desc">
+<title id="title">Два маршрути Дейкстри на MovieLens 1M</title>
+<desc id="desc">Кола — користувачі; підпис — userId. Лінії — зв’язки через спільні високі оцінки.</desc>
+<rect width="800" height="295" fill="#fbfbf8"/>
+<g font-family="system-ui, sans-serif" fill="#182c36">
+<text x="40" y="42" font-size="24" font-weight="bold">MovieLens 1M: шлях 120 ↔ 1710</text>
+<text x="40" y="75" font-size="16">Мінімум переходів: 2</text>
+<path d="M60.0,110 H740.0" stroke="#245985" stroke-width="3"/>
+<circle cx="60.0" cy="110" r="10" fill="#245985"/>
+<text x="60.0" y="142" text-anchor="middle" font-size="15">120</text>
+<circle cx="400.0" cy="110" r="10" fill="#245985"/>
+<text x="400.0" y="142" text-anchor="middle" font-size="15">5880</text>
+<circle cx="740.0" cy="110" r="10" fill="#245985"/>
+<text x="740.0" y="142" text-anchor="middle" font-size="15">1710</text>
+<text x="40" y="176" font-size="16">Мінімум суми 1/вага: 3 переходів, вартість 0.0712</text>
+<path d="M60.0,211 H740.0" stroke="#8b472e" stroke-width="3"/>
+<circle cx="60.0" cy="211" r="10" fill="#8b472e"/>
+<text x="60.0" y="243" text-anchor="middle" font-size="15">120</text>
+<circle cx="286.7" cy="211" r="10" fill="#8b472e"/>
+<text x="286.7" y="243" text-anchor="middle" font-size="15">1980</text>
+<circle cx="513.3" cy="211" r="10" fill="#8b472e"/>
+<text x="513.3" y="243" text-anchor="middle" font-size="15">3285</text>
+<circle cx="740.0" cy="211" r="10" fill="#8b472e"/>
+<text x="740.0" y="243" text-anchor="middle" font-size="15">1710</text>
+<text x="40" y="275" font-size="14">Вага ребра — число фільмів з оцінкою ≥4 від обох користувачів.</text>
+</g></svg>

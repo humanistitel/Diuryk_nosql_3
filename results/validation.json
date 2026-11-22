@@ -1,0 +1,24 @@
+{
+  "database": "Neo4j/5.26.33",
+  "rowCounts": {
+    "q1": 52,
+    "q2": 1390,
+    "q3": 6,
+    "q4": 18,
+    "q5": 10,
+    "q6": 1,
+    "supernodes": 3,
+    "profile_super": 1,
+    "profile_median": 1
+  },
+  "profiles": {
+    "profile_super": {
+      "totalDbHits": 9714,
+      "expandedRows": 3428
+    },
+    "profile_median": {
+      "totalDbHits": 242,
+      "expandedRows": 109
+    }
+  }
+}

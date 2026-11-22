@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "fromUser": 1,
+      "toUser": 46,
+      "hops": 4,
+      "route": [
+        {
+          "kind": "User",
+          "userId": 1
+        },
+        {
+          "kind": "Movie",
+          "movieId": 1246,
+          "title": "Dead Poets Society"
+        },
+        {
+          "kind": "User",
+          "userId": 274
+        },
+        {
+          "kind": "Movie",
+          "movieId": 529,
+          "title": "Searching for Bobby Fischer"
+        },
+        {
+          "kind": "User",
+          "userId": 46
+        }
+      ]
+    }
+  ],
+  "database": "Neo4j/5.26.33",
+  "queryFile": "part3.cypher",
+  "queryFileSha256": "2536f8fcb0cd993fffc78d1440b69b1d2036b12d1d93e371587688f5c1fd4ce3",
+  "availableAfterMs": 71,
+  "consumedAfterMs": 16,
+  "verifiedAgainst": "MovieLens 1M raw files"
+}

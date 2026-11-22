@@ -1,0 +1,154 @@
+{
+  "rows": [
+    {
+      "genre": "Film-Noir",
+      "movieCount": 44,
+      "ratingCount": 18261,
+      "avgRating": 4.075187558184108,
+      "highRatings": 13942,
+      "highShare": 0.7634850227260281
+    },
+    {
+      "genre": "Documentary",
+      "movieCount": 127,
+      "ratingCount": 7910,
+      "avgRating": 3.9331226295828015,
+      "highRatings": 5716,
+      "highShare": 0.722629582806574
+    },
+    {
+      "genre": "War",
+      "movieCount": 143,
+      "ratingCount": 68527,
+      "avgRating": 3.8933267179359987,
+      "highRatings": 47542,
+      "highShare": 0.6937703386986152
+    },
+    {
+      "genre": "Drama",
+      "movieCount": 1603,
+      "ratingCount": 354529,
+      "avgRating": 3.7663322323420734,
+      "highRatings": 228440,
+      "highShare": 0.6443478530670269
+    },
+    {
+      "genre": "Crime",
+      "movieCount": 211,
+      "ratingCount": 79541,
+      "avgRating": 3.708678543141269,
+      "highRatings": 49347,
+      "highShare": 0.6203970279478508
+    },
+    {
+      "genre": "Animation",
+      "movieCount": 105,
+      "ratingCount": 43293,
+      "avgRating": 3.684868223500322,
+      "highRatings": 26636,
+      "highShare": 0.6152495784537916
+    },
+    {
+      "genre": "Mystery",
+      "movieCount": 106,
+      "ratingCount": 40178,
+      "avgRating": 3.6681019463387843,
+      "highRatings": 24300,
+      "highShare": 0.6048086017223356
+    },
+    {
+      "genre": "Musical",
+      "movieCount": 114,
+      "ratingCount": 41533,
+      "avgRating": 3.6655189849035783,
+      "highRatings": 25111,
+      "highShare": 0.6046035682469362
+    },
+    {
+      "genre": "Western",
+      "movieCount": 68,
+      "ratingCount": 20683,
+      "avgRating": 3.6377701493980594,
+      "highRatings": 12311,
+      "highShare": 0.595223130106851
+    },
+    {
+      "genre": "Romance",
+      "movieCount": 471,
+      "ratingCount": 147523,
+      "avgRating": 3.6074645987405605,
+      "highRatings": 85499,
+      "highShare": 0.5795638646177206
+    },
+    {
+      "genre": "Thriller",
+      "movieCount": 492,
+      "ratingCount": 189680,
+      "avgRating": 3.5704660480810175,
+      "highRatings": 108216,
+      "highShare": 0.5705187684521299
+    },
+    {
+      "genre": "Comedy",
+      "movieCount": 1200,
+      "ratingCount": 356580,
+      "avgRating": 3.522098827752526,
+      "highRatings": 196945,
+      "highShare": 0.5523164507263447
+    },
+    {
+      "genre": "Action",
+      "movieCount": 503,
+      "ratingCount": 257457,
+      "avgRating": 3.491184935736801,
+      "highRatings": 138766,
+      "highShare": 0.5389870929902858
+    },
+    {
+      "genre": "Adventure",
+      "movieCount": 283,
+      "ratingCount": 133953,
+      "avgRating": 3.477256948332593,
+      "highRatings": 70951,
+      "highShare": 0.5296708547027689
+    },
+    {
+      "genre": "Sci-Fi",
+      "movieCount": 276,
+      "ratingCount": 157294,
+      "avgRating": 3.4665212913397916,
+      "highRatings": 83197,
+      "highShare": 0.5289267232062252
+    },
+    {
+      "genre": "Fantasy",
+      "movieCount": 68,
+      "ratingCount": 36301,
+      "avgRating": 3.447370595851348,
+      "highRatings": 18714,
+      "highShare": 0.5155229883474285
+    },
+    {
+      "genre": "Children's",
+      "movieCount": 251,
+      "ratingCount": 72186,
+      "avgRating": 3.4220347435790837,
+      "highRatings": 37278,
+      "highShare": 0.5164159255257252
+    },
+    {
+      "genre": "Horror",
+      "movieCount": 343,
+      "ratingCount": 76386,
+      "avgRating": 3.2150132223181975,
+      "highRatings": 34088,
+      "highShare": 0.44625978582462755
+    }
+  ],
+  "database": "Neo4j/5.26.33",
+  "queryFile": "part3.cypher",
+  "queryFileSha256": "2536f8fcb0cd993fffc78d1440b69b1d2036b12d1d93e371587688f5c1fd4ce3",
+  "availableAfterMs": 135,
+  "consumedAfterMs": 1365,
+  "verifiedAgainst": "MovieLens 1M raw files"
+}

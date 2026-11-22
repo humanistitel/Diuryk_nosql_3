@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "movieId": 364,
+      "title": "Lion King, The",
+      "supportingUsers": 26,
+      "meanPeerRating": 4.692307692307692,
+      "recommendationScore": 7.03459124
+    },
+    {
+      "movieId": 1196,
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "supportingUsers": 28,
+      "meanPeerRating": 4.571428571428572,
+      "recommendationScore": 6.973775
+    },
+    {
+      "movieId": 2081,
+      "title": "Little Mermaid, The",
+      "supportingUsers": 27,
+      "meanPeerRating": 4.481481481481481,
+      "recommendationScore": 6.68246134
+    },
+    {
+      "movieId": 318,
+      "title": "Shawshank Redemption, The",
+      "supportingUsers": 24,
+      "meanPeerRating": 4.75,
+      "recommendationScore": 6.58894223
+    },
+    {
+      "movieId": 34,
+      "title": "Babe",
+      "supportingUsers": 23,
+      "meanPeerRating": 4.6521739130434785,
+      "recommendationScore": 6.02636401
+    },
+    {
+      "movieId": 1210,
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "supportingUsers": 24,
+      "meanPeerRating": 4.416666666666668,
+      "recommendationScore": 5.43877843
+    },
+    {
+      "movieId": 2858,
+      "title": "American Beauty",
+      "supportingUsers": 19,
+      "meanPeerRating": 4.7368421052631575,
+      "recommendationScore": 5.27176031
+    },
+    {
+      "movieId": 1073,
+      "title": "Willy Wonka and the Chocolate Factory",
+      "supportingUsers": 19,
+      "meanPeerRating": 4.63157894736842,
+      "recommendationScore": 4.72289362
+    },
+    {
+      "movieId": 1198,
+      "title": "Raiders of the Lost Ark",
+      "supportingUsers": 18,
+      "meanPeerRating": 4.666666666666667,
+      "recommendationScore": 4.67302328
+    },
+    {
+      "movieId": 2571,
+      "title": "Matrix, The",
+      "supportingUsers": 19,
+      "meanPeerRating": 4.578947368421052,
+      "recommendationScore": 4.58494829
+    }
+  ],
+  "database": "Neo4j/5.26.33",
+  "queryFile": "part3.cypher",
+  "queryFileSha256": "2536f8fcb0cd993fffc78d1440b69b1d2036b12d1d93e371587688f5c1fd4ce3",
+  "availableAfterMs": 186,
+  "consumedAfterMs": 354,
+  "verifiedAgainst": "MovieLens 1M raw files"
+}

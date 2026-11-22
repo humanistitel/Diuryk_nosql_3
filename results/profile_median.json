@@ -1,0 +1,148 @@
+{
+  "rows": [
+    {
+      "movieId": 1606,
+      "highRatings": 19
+    }
+  ],
+  "database": "Neo4j/5.26.33",
+  "queryFile": "part4_supernodes.cypher",
+  "queryFileSha256": "2544386a06e1bb3d10971060e64f840ca05bf5fe948e9621644808e88c6a10f9",
+  "availableAfterMs": 7,
+  "consumedAfterMs": 1,
+  "verifiedAgainst": "MovieLens 1M raw files",
+  "profile": {
+    "totalDbHits": 242,
+    "expandedRows": 109,
+    "profile": {
+      "args": {
+        "Order": "movieId ASC",
+        "GlobalMemory": 88,
+        "planner-impl": "IDP",
+        "Memory": 0,
+        "string-representation": "Cypher 5\n\nPlanner COST\n\nRuntime SLOTTED\n\nRuntime version 5.26.33\n\n+----------------------+----+------------------------------------------------------------------------------+----------------+------+---------+----------------+------------------------+-------------------+\n| Operator             | Id | Details                                                                      | Estimated Rows | Rows | DB Hits | Memory (Bytes) | Page Cache Hits/Misses | Ordered by        |\n+----------------------+----+------------------------------------------------------------------------------+----------------+------+---------+----------------+------------------------+-------------------+\n| +ProduceResults      |  0 | movieId, highRatings                                                         |             10 |    1 |       0 |              0 |                    0/0 |                   |\n| |                    +----+------------------------------------------------------------------------------+----------------+------+---------+----------------+------------------------+                   |\n| +OrderedAggregation  |  1 | cache[movie.movieId] AS movieId, count(rated) AS highRatings                 |             10 |    1 |       0 |             24 |                    0/0 | movieId ASC       |\n| |                    +----+------------------------------------------------------------------------------+----------------+------+---------+----------------+------------------------+-------------------+\n| +Filter              |  2 | rated.rating >= $autoint_1 AND anon_0:User                                   |            103 |   19 |     128 |                |                    0/0 |                   |\n| |                    +----+------------------------------------------------------------------------------+----------------+------+---------+----------------+------------------------+                   |\n| +Expand(All)         |  3 | (movie)<-[rated:RATED]-(anon_0)                                              |            258 |  109 |     112 |                |                    0/0 |                   |\n| |                    +----+------------------------------------------------------------------------------+----------------+------+---------+----------------+------------------------+                   |\n| +NodeUniqueIndexSeek |  4 | UNIQUE movie:Movie(movieId) WHERE movieId = $autoint_0, cache[movie.movieId] |              1 |    1 |       2 |                |                    0/0 | movie.movieId ASC |\n+----------------------+----+------------------------------------------------------------------------------+----------------+------+---------+----------------+------------------------+-------------------+\n\nTotal database accesses: 242, total allocated memory: 88\n",
+        "runtime": "SLOTTED",
+        "runtime-impl": "SLOTTED",
+        "version": "5",
+        "DbHits": 0,
+        "Details": "movieId, highRatings",
+        "planner-version": "5.26.33",
+        "runtime-version": "5.26.33",
+        "Id": 0,
+        "EstimatedRows": 10.150599190178369,
+        "planner": "COST",
+        "PageCacheMisses": 0,
+        "Rows": 1,
+        "PageCacheHits": 0
+      },
+      "pageCacheMisses": 0,
+      "children": [
+        {
+          "args": {
+            "Order": "movieId ASC",
+            "Details": "cache[movie.movieId] AS movieId, count(rated) AS highRatings",
+            "Memory": 24,
+            "Id": 1,
+            "EstimatedRows": 10.150599190178369,
+            "PageCacheMisses": 0,
+            "DbHits": 0,
+            "Rows": 1,
+            "PageCacheHits": 0
+          },
+          "pageCacheMisses": 0,
+          "children": [
+            {
+              "args": {
+                "Order": "movie.movieId ASC",
+                "Details": "rated.rating >= $autoint_1 AND anon_0:User",
+                "Id": 2,
+                "PageCacheMisses": 0,
+                "EstimatedRows": 103.03466391964977,
+                "DbHits": 128,
+                "Rows": 19,
+                "PageCacheHits": 0
+              },
+              "pageCacheMisses": 0,
+              "children": [
+                {
+                  "args": {
+                    "Order": "movie.movieId ASC",
+                    "Details": "(movie)<-[rated:RATED]-(anon_0)",
+                    "Id": 3,
+                    "PageCacheMisses": 0,
+                    "EstimatedRows": 257.5866597991244,
+                    "DbHits": 112,
+                    "Rows": 109,
+                    "PageCacheHits": 0
+                  },
+                  "pageCacheMisses": 0,
+                  "children": [
+                    {
+                      "args": {
+                        "Order": "movie.movieId ASC",
+                        "Details": "UNIQUE movie:Movie(movieId) WHERE movieId = $autoint_0, cache[movie.movieId]",
+                        "Id": 4,
+                        "PageCacheMisses": 0,
+                        "EstimatedRows": 1.0,
+                        "DbHits": 2,
+                        "Rows": 1,
+                        "PageCacheHits": 0
+                      },
+                      "pageCacheMisses": 0,
+                      "dbHits": 2,
+                      "identifiers": [
+                        "movie"
+                      ],
+                      "operatorType": "NodeUniqueIndexSeek@neo4j",
+                      "rows": 1,
+                      "pageCacheHitRatio": 0.0,
+                      "pageCacheHits": 0
+                    }
+                  ],
+                  "dbHits": 112,
+                  "identifiers": [
+                    "movie",
+                    "rated",
+                    "anon_0"
+                  ],
+                  "operatorType": "Expand(All)@neo4j",
+                  "rows": 109,
+                  "pageCacheHitRatio": 0.0,
+                  "pageCacheHits": 0
+                }
+              ],
+              "dbHits": 128,
+              "identifiers": [
+                "movie",
+                "rated",
+                "anon_0"
+              ],
+              "operatorType": "Filter@neo4j",
+              "rows": 19,
+              "pageCacheHitRatio": 0.0,
+              "pageCacheHits": 0
+            }
+          ],
+          "dbHits": 0,
+          "identifiers": [
+            "movieId",
+            "highRatings"
+          ],
+          "operatorType": "OrderedAggregation@neo4j",
+          "rows": 1,
+          "pageCacheHitRatio": 0.0,
+          "pageCacheHits": 0
+        }
+      ],
+      "dbHits": 0,
+      "identifiers": [
+        "movieId",
+        "highRatings"
+      ],
+      "operatorType": "ProduceResults@neo4j",
+      "rows": 1,
+      "pageCacheHitRatio": 0.0,
+      "pageCacheHits": 0
+    }
+  }
+}
